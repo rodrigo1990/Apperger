@@ -1,0 +1,27 @@
+﻿.body{
+    background-color: white;
+}
+
+
+Entry {
+    text-align: center;
+    margin: 15 0;
+    font-size:15;
+    border-color: white;
+}
+
+.imgHeader {
+    float: left;
+    width:100;
+    margin: 0;
+}
+
+Button {
+    font-size: 16;
+    color: black;
+    margin: 5 0;
+    background-color: transparent;
+    border: solid;
+    border-color: black;
+    border-width: 1;
+}

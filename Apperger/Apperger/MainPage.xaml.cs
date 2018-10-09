@@ -9,9 +9,22 @@ namespace Apperger
 {
     public partial class MainPage : ContentPage
     {
+        public Empleado emp { get; set; }
         public MainPage()
         {
+
+            emp = new Empleado();
+            emp.nombre = "Rodrigo reynoso";
+            emp.email = "mcd77.1990@gmail.com";
+            BindingContext = emp;
             InitializeComponent();
+
+
+            btnIrAOtraPagina.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Home());
+            };
+
         }
     }
 }

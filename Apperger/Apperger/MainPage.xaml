@@ -3,12 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Apperger"
              x:Class="Apperger.MainPage">
+<ContentPage.Resources>
+    <StyleSheet Source="Estilos/estilos.css" />
+</ContentPage.Resources>
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Apperger " 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+    <StackLayout StyleClass="body" Padding="40">
+        <Image Source="iso_horizontal.png" />
+        <Entry Placeholder="Ingrese su usuario" PlaceholderColor="black" TextColor="black" ></Entry>
+        <Entry Placeholder="Ingrese su contraseña" PlaceholderColor="black" IsPassword="true" TextColor="white"></Entry>
+        
+        <!--<Label Text="{Binding nombre}"/>-->
+
+        <Button x:Name="btnIrAOtraPagina" Text="Ingresar"></Button>
+        
+        
+        
     </StackLayout>
 
 </ContentPage>

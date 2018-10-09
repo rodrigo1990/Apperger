@@ -1,0 +1,14 @@
+C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\bin\Debug\netstandard2.0\Apperger.deps.json
+C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\bin\Debug\netstandard2.0\Apperger.dll
+C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\bin\Debug\netstandard2.0\Apperger.pdb
+C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\EscogerEmocion.xaml.g.cs
+C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\Home.xaml.g.cs
+C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\SacarUnaFoto.xaml.g.cs
+C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\Estilos\estilos.css.g.cs
+C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\Apperger.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\Apperger.AssemblyInfoInputs.cache
+C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\Apperger.AssemblyInfo.cs
+C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\Apperger.dll
+C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\Apperger.pdb
