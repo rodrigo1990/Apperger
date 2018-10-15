@@ -7,9 +7,15 @@
     </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout StyleClass="body">
-            <Image x:Name="MiImagen"></Image>
-            <Button Text="Hace foto" Clicked="HacerFoto"></Button>
+            <!--<StackLayout>
+                <Button x:Name="btnEmotions" Text="Analizar Emociones" Clicked="btnEmotions_Clicked"/>
+            </StackLayout>-->
+            <Image x:Name="MiImagen" WidthRequest="300" HeightRequest="300" Aspect="AspectFit"></Image>
+            <Button Text="Sacar foto" Clicked="HacerFoto"></Button>
             <Button Text="Seleccion una imagen" Clicked="ElegirFoto"></Button>
+            <ActivityIndicator  x:Name="Cargando" IsRunning="True" IsVisible="false" Color="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+           <Label x:Name="lblResult" Text="---" />
+            <StackLayout x:Name="Results"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
