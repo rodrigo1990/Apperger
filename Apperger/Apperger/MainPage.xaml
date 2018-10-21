@@ -9,8 +9,8 @@
 
     <StackLayout StyleClass="body" Padding="40">
         <Image Source="iso_horizontal.png" />
-        <Entry Placeholder="Ingrese su usuario" PlaceholderColor="black" TextColor="black" ></Entry>
-        <Entry Placeholder="Ingrese su contraseña" PlaceholderColor="black" IsPassword="true" TextColor="white"></Entry>
+        <Entry Placeholder="Ingrese su usuario" PlaceholderColor="black" TextColor="black"  x:Name="email"></Entry>
+        <Entry Placeholder="Ingrese su contraseña" PlaceholderColor="black" IsPassword="true" TextColor="black" x:Name="password"></Entry>
         
         <!--<Label Text="{Binding nombre}"/>-->
 

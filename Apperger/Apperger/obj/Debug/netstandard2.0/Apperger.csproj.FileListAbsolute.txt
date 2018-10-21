@@ -9,6 +9,7 @@ C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\De
 C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\Apperger.csproj.CoreCompileInputs.cache
 C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\Apperger.AssemblyInfoInputs.cache
 C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\Apperger.AssemblyInfo.cs
-C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\Apperger.dll
 C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\Apperger.pdb
+C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\Apperger.csprojAssemblyReference.cache
+C:\Users\Rodrigo Producciones\Documents\GitHub\Apperger\Apperger\Apperger\obj\Debug\netstandard2.0\XamlC.stamp

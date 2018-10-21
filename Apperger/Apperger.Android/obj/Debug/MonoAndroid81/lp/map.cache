@@ -1,8 +1,13 @@
 Apperger
 FormsViewGroup
+Microsoft.ProjectOxford.Common
+Microsoft.ProjectOxford.Emotion
+Newtonsoft.Json
 Plugin.CurrentActivity
 Plugin.Media
 Plugin.Permissions
+System.Net.Http.Extensions
+System.Net.Http.Primitives
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common

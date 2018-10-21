@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "cc7b3c3e9f8282337bc44bd43a38c11ed03548ee"
+    "signature": "5fceb636d3c09e7d211da184225cb949710e22aa"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,7 +9,11 @@
     ".NETStandard,Version=v2.0/": {
       "Apperger/1.0.0": {
         "dependencies": {
+          "Microsoft.Net.Http": "2.2.29",
+          "Microsoft.ProjectOxford.Common": "2.1.1",
+          "Microsoft.ProjectOxford.Emotion": "2.0.40",
           "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "11.0.2",
           "Xam.Plugin.Media": "4.0.1.5",
           "Xamarin.Forms": "3.1.0.697729"
         },
@@ -17,10 +21,65 @@
           "Apperger.dll": {}
         }
       },
+      "Microsoft.Bcl/1.1.10": {
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.14"
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.14": {},
+      "Microsoft.Net.Http/2.2.29": {
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.10",
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Extensions.dll": {
+            "assemblyVersion": "2.2.29.0",
+            "fileVersion": "2.2.29.0"
+          },
+          "lib/net45/System.Net.Http.Primitives.dll": {
+            "assemblyVersion": "4.2.29.0",
+            "fileVersion": "4.2.29.0"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.ProjectOxford.Common/2.1.1": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.ProjectOxford.Common.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.0"
+          }
+        }
+      },
+      "Microsoft.ProjectOxford.Emotion/2.0.40": {
+        "dependencies": {
+          "Microsoft.ProjectOxford.Common": "2.1.1",
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.ProjectOxford.Emotion.dll": {
+            "assemblyVersion": "2.0.40.0",
+            "fileVersion": "2.0.40.0"
+          }
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
         }
       },
       "Plugin.Permissions/3.0.0.12": {
@@ -66,6 +125,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.Bcl/1.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BT7l/NmBorDS6ZEZhUyzaREaVg0jGrALySl1OM+ffV/Hjh9CSj3Qfa8nvdSoph1VDX9zDVXH/UBZMAJ5SISg3g==",
+      "path": "microsoft.bcl/1.1.10",
+      "hashPath": "microsoft.bcl.1.1.10.nupkg.sha512"
+    },
+    "Microsoft.Bcl.Build/1.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cDLKSvNvRa519hplsbSoYqO69TjdDIhfjtKUM0g20/nVROoWsGav9KCI9HtnGjLmdV1+TcUUDhbotcllibjPEA==",
+      "path": "microsoft.bcl.build/1.0.14",
+      "hashPath": "microsoft.bcl.build.1.0.14.nupkg.sha512"
+    },
+    "Microsoft.Net.Http/2.2.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ls9yfwKS/5F4nBUq34U0HKAke+m4Jy0AFEQVvgHHdP7QccfFQFR1iq99qLms1lfd1OjfvfdBMA7o3bP2IMakwQ==",
+      "path": "microsoft.net.http/2.2.29",
+      "hashPath": "microsoft.net.http.2.2.29.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -73,12 +153,33 @@
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
+    "Microsoft.ProjectOxford.Common/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YMtYSLhZsyhBrLHrxFDOI8EmhIxXEkvj2KEDjr9blOOFZmdnRB4TIRNafWs8mfNAU8cZqnynzarIeweRD+2pMg==",
+      "path": "microsoft.projectoxford.common/2.1.1",
+      "hashPath": "microsoft.projectoxford.common.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.ProjectOxford.Emotion/2.0.40": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SAFAhNxz6V8AiJA1zBBh8z7/BM9jyy53TGygLJ7wYricSWJkFWqbDq3yYkvgP85LRQ/6zU7GCErML4wDzs9UXg==",
+      "path": "microsoft.projectoxford.emotion/2.0.40",
+      "hashPath": "microsoft.projectoxford.emotion.2.0.40.nupkg.sha512"
+    },
     "NETStandard.Library/2.0.3": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },
     "Plugin.Permissions/3.0.0.12": {
       "type": "package",
