@@ -18,10 +18,11 @@ Entry {
 
 Button {
     font-size: 16;
-    color: black;
+    color: #fff;
     margin: 5 0;
-    background-color: transparent;
+    background-color: #00BFFF;
     border: solid;
-    border-color: black;
-    border-width: 1;
+    border-radius: 2px;
+    /*border-color: black;
+    border-width: 1;*/
 }

@@ -25,6 +25,11 @@ namespace Apperger
                 Navigation.PushAsync(new SacarUnaFoto());
 
             };
+
+            btnCards.Clicked += (sender, e) =>
+            {
+                Navigation.PushAsync(new Cards());
+            };
         }
          
        

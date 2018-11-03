@@ -2,18 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                 xmlns:local="clr-namespace:Apperger"
-
              x:Class="Apperger.Home">
     <ContentPage.Resources>
         <StyleSheet Source="Estilos/estilos.css" />
     </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout StyleClass="body">
-            <Image Source="iso_horizontal.png" StyleClass="imgHeader" HorizontalOptions="Start"/>
+            <Image Source="" StyleClass="imgHeader" HorizontalOptions="Start"/>
 
             <Button x:Name="btnEscogerEmocion" Text="¡Escoge una emocion!"></Button>
             <Button x:Name="btnSacarFoto" Text="¡Sacar una foto!"></Button>
-
+            <Button x:Name="btnCards" Text="¡cards!"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

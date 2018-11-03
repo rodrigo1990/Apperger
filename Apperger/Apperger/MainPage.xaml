@@ -8,13 +8,12 @@
 </ContentPage.Resources>
 
     <StackLayout StyleClass="body" Padding="40">
-        <Image Source="iso_horizontal.png" />
-        <Entry Placeholder="Ingrese su usuario" PlaceholderColor="black" TextColor="black" ></Entry>
-        <Entry Placeholder="Ingrese su contraseña" PlaceholderColor="black" IsPassword="true" TextColor="white"></Entry>
-        
-        <!--<Label Text="{Binding nombre}"/>-->
-
-        <Button x:Name="btnIrAOtraPagina" Text="Ingresar"></Button>
+        <Image Source="log2.png" />
+        <Entry Placeholder="Ingrese su usuario" PlaceholderColor="black" TextColor="black" x:Name="email"></Entry>
+        <Entry Placeholder="Ingrese su contraseña" PlaceholderColor="black" IsPassword="true" TextColor="black" x:Name="password"></Entry>
+        <!--<Label Text="{Binding nombre}"/>x:Name="btnIrAOtraPagina" -->
+        <Button Text="Ingresar" x:Name="btnIrAOtraPagina"></Button>
+        <Label x:Name="lblResult" Text="" HorizontalOptions="Center" FontSize="Large"  TextColor="LightBlue"/>
         
         
         
